@@ -1,0 +1,33 @@
+{
+  "name": "gostatic-webpack-images",
+  "version": "1.0.0",
+  "description": "Default Webpack config for images for gostatic websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s12chung/gostatic-webpack-images.git"
+  },
+  "keywords": [
+    "webpack",
+    "images",
+    "responsive",
+    "optimization"
+  ],
+  "author": "Steven Chung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s12chung/gostatic-webpack-images/issues"
+  },
+  "homepage": "https://github.com/s12chung/gostatic-webpack-images#readme",
+  "dependencies": {
+    "bin-wrapper": "github:s12chung/bin-wrapper#use_system_bin",
+    "file-loader": "^2.0.0",
+    "imagemin-webpack-plugin": "^2.2.0",
+    "responsive-loader": "^1.1.0",
+    "sharp": "^0.20.7",
+    "webpack-stringify-loader": "^1.0.0"
+  }
+}
